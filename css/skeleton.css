@@ -1,0 +1,407 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+html{
+}
+
+
+a.class1{  cursor: pointer;
+/* Font options */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 2s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 2s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 2s infinite; 
+}
+
+a.class2{
+    text-decoration: underline;
+text-decoration-color: blue;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top:10px;
+    margin-bottom:10;
+    color: white;
+}
+a.class2:hover{
+    text-decoration: underline;
+text-decoration-color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top:10px;
+    margin-bottom:10;
+    color: white;
+}
+
+a.class2:visited{
+    text-decoration: underline;
+text-decoration-color: blue;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top:10px;
+    margin-bottom:10;
+    color: white;
+}
+
+a.class2:active{
+    text-decoration: underline;
+text-decoration-color: blue;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top:10px;
+    margin-bottom:10;
+    color: white;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+
+
+body{
+    background-color:black;
+     background-repeat: repeat;
+    text-align: center;
+}
+
+
+.header{
+                padding-top: 5%;
+
+            padding-bottom: 20px;
+     margin: 0 auto;
+    height: auto;
+    text-align: center;
+    background-color:black;
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  width: 50%;
+  max-width: 460px;
+  margin: 0 auto;
+text-align: center;}
+.column {
+    display: inline-block;
+  width: 6.5rem;
+}
+
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    font-size:0.5rem;
+  font-family: arial;
+  color: white; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p {
+  margin-top: 0; }
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #0FA0CE; }
+
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+h1,h2{
+  text-align:center;
+    text-decoration-line: underline;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+h4{
+  text-align:center;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+h1{
+  color:rgba(100, 50, 255, .8);
+  font-family: 'Pacifico', cursive;
+  color:#212121;
+}
+.rainbow {
+  
+   /* Font options */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+h3{
+    
+    
+}
+#footer {
+  background: #000;
+  color: #FFF;
+  padding: 5px;
+    text-align: center;    
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.center-div
+{
+     margin: 0 auto;
+}
+
+h5{font-size:10px;}
+
+
+.vid {
+  font-size: 0px; 
+  display: inline-block;
+  width: 500px;
+}
+
+H6{font-size: 22px;
+    letter-spacing: 3px;
+margin-top:10px;
+    margin-bottom:0;
+text-decoration: underline;
+text-decoration-color: blue;
+}
+
+
+
+
+.image-list-small {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 740px;
+  padding: 0;
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: 300px;
+  margin: 0 12px 30px;
+}
+
+
+/* Photo */
+
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 169px;
+  margin: 0;
+  padding: 0;
+}
+
+.image-list-small .details {
+  margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .details h3 {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-list-small .details h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.image-list-small .details .image-author {
+  display: block;
+  color: white;
+  font-size: 10px;
+    text-transform: uppercase;
+    padding-top:10px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h7{
+ display: block;
+  color: white;
+  font-size: 10px;
+    text-transform: uppercase;
+    padding-top:10px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+
+
+
+
+
+.image-list-small2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 740px;
+  padding: 0;
+}
+
+.image-list-small2 li {
+  display: inline-block;
+  width: 200px;
+    height:200px;
+  margin: 12px;
+}
+
+
+/* Photo */
+
+.image-list-small2 li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.image-list-small2 .details {
+  margin-top: 12px;
+}
+
+
