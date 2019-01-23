@@ -131,6 +131,13 @@ body{
 }
 
 
+.center{width: 70%;
+ margin: 0 auto;
+height: 100%;
+    min-width: 300px;
+padding-top: 160px;}
+
+
 
 
 .header{
@@ -422,10 +429,6 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
-
-
-
-
 
 
 
