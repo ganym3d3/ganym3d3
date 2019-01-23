@@ -131,11 +131,12 @@ body{
 }
 
 
-.center{width: 70%;
+.center{width: 50%;
  margin: 0 auto;
 height: 100%;
+    max-width:300px;
     min-width: 300px;
-padding-top: 160px;}
+padding-top: 12%;}
 
 
 
