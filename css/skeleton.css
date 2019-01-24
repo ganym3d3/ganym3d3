@@ -135,8 +135,7 @@ body{
  margin: 0 auto;
 height: 100%;
     max-width:300px;
-    min-width: 300px;
-padding-top: 12%;}
+    min-width: 300px;}
 
 
 
@@ -149,7 +148,6 @@ padding-top: 12%;}
     height: auto;
     text-align: center;
     background-color:black;
-    position:fixed;
     box-shadow: 5px 10px 18px black; 
     
 }
